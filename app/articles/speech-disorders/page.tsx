@@ -288,12 +288,14 @@ export default function SpeechDisordersArticle() {
                   <CardDescription className="mb-4">
                     Как близкие могут помочь в процессе восстановления речи и создать поддерживающую среду.
                   </CardDescription>
-                  <Button
-                    variant="outline"
-                    className="w-full border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent"
-                  >
-                    Читать статью
-                  </Button>
+                  <Link href="/family-support">
+                    <Button
+                      variant="outline"
+                      className="w-full border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent"
+                    >
+                      Читать статью
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
 
@@ -306,12 +308,14 @@ export default function SpeechDisordersArticle() {
                   <CardDescription className="mb-4">
                     Обзор инновационных методов и технологий, используемых в современной речевой терапии.
                   </CardDescription>
+                  <Link href="/technology-in-speech-therapy">
                   <Button
                     variant="outline"
                     className="w-full border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent"
                   >
                     Читать статью
                   </Button>
+                  </Link>
                 </CardContent>
               </Card>
             </div>
