@@ -238,7 +238,7 @@ export default function RecognitionPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center">
-                <img src="/soile-logo.png" alt="Soile AI" className="w-full h-full object-contain" />
+                <img src="/soile-logo.svg" alt="Soile AI" className="w-full h-full object-contain" />
               </div>
             </div>
 
@@ -548,7 +548,7 @@ export default function RecognitionPage() {
                 </div>
                 <div className="mt-4 p-3 bg-yellow-50 rounded-lg">
                   <p className="text-xs text-yellow-800">
-                    💡 <strong>Совет:</strong> Говорите четко для лучшего качества распознавания
+                    💡 <strong>Совет:</strong> Используйте хороший микрофон для лучшего качества распознавания
                   </p>
                 </div>
               </div>
