@@ -415,6 +415,7 @@ export default function RecoveryPage() {
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="mb-3 md:mb-4 line-clamp-3 text-sm">{article.excerpt}</CardDescription>
+                    <Link href={`/articles/${article.title.toLowerCase().replace(/\s+/g, '-')}`}>
                     <Button
                       variant="outline"
                       className="w-full border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent"
@@ -422,6 +423,7 @@ export default function RecoveryPage() {
                       <BookOpen className="w-4 h-4 mr-2" />
                       Читать статью
                     </Button>
+                    </Link>
                   </CardContent>
                 </Card>
               ))}
