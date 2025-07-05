@@ -15,9 +15,9 @@ export const metadata: Metadata = {
   publisher: "Soile AI",
   robots: "index, follow",
   icons: {
-    icon: "/soile-logo.svg",
-    shortcut: "/soile-logo.svg",
-    apple: "/soile-logo.svg",
+    icon: "/soile-logo.png",
+    shortcut: "/soile-logo.png",
+    apple: "/soile-logo.png",
   },
   openGraph: {
     title: "Soile AI",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Soile AI",
     images: [
       {
-        url: "/soile-logo.svg",
+        url: "/soile-logo.png",
         width: 16,
         height: 16,
         alt: "Soile AI Logo",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Soile AI",
     description: "Инновационные технологии ИИ для речевой реабилитации",
-    images: ["/soile-logo.svg"],
+    images: ["/soile-logo.png"],
   },
 }
 
@@ -51,8 +51,8 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <head>
-        <link rel="icon" href="/soile-logo.svg" sizes="any" />
-        <link rel="apple-touch-icon" href="/soile-logo.svg" />
+        <link rel="icon" href="/soile-logo.png" sizes="any" />
+        <link rel="apple-touch-icon" href="/soile-logo.png" />
         <meta name="theme-color" content="#2563eb" />
       </head>
       <body className={inter.className}>{children}</body>

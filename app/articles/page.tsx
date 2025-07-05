@@ -45,12 +45,12 @@ export default function ArticlesPage() {
       categoryName: "Основы",
       excerpt:
         "Подробное руководство по выполнению базовых артикуляционных упражнений для улучшения подвижности органов речи.",
-      readTime: "12 мин",
+      readTime: "10 мин",
       author: "Soile AI Team",
       rating: 4.8,
       views: 1250,
       featured: true,
-      link: "#",
+      link: "/articles/articulation-exercises",
     },
     {
       id: 3,
@@ -63,7 +63,7 @@ export default function ArticlesPage() {
       rating: 4.9,
       views: 980,
       featured: false,
-      link: "#",
+      link: "/articles/breathing-techniques",
     },
     {
       id: 4,
@@ -76,7 +76,7 @@ export default function ArticlesPage() {
       rating: 4.7,
       views: 756,
       featured: true,
-      link: "#",
+      link: "/articles/psychological-support",
     },
     {
       id: 5,
@@ -89,7 +89,7 @@ export default function ArticlesPage() {
       rating: 4.6,
       views: 634,
       featured: false,
-      link: "#",
+      link: "/articles/technology-in-speech-therapy",
     },
     {
       id: 6,
@@ -103,7 +103,7 @@ export default function ArticlesPage() {
       rating: 4.8,
       views: 892,
       featured: false,
-      link: "#",
+      link: "/articles/family-support",
     },
     {
       id: 7,
@@ -116,7 +116,7 @@ export default function ArticlesPage() {
       rating: 4.7,
       views: 723,
       featured: false,
-      link: "#",
+      link: "/articles/speech-hearing-exercises",
     },
     {
       id: 8,
@@ -129,7 +129,7 @@ export default function ArticlesPage() {
       rating: 4.9,
       views: 567,
       featured: true,
-      link: "#",
+      link: "/articles/motivation-in-speech-therapy",
     },
     {
       id: 9,
@@ -142,7 +142,7 @@ export default function ArticlesPage() {
       rating: 4.5,
       views: 445,
       featured: false,
-      link: "#",
+      link: "/articles/nutrition-and-speech-health",
     },
   ]
 
@@ -281,10 +281,10 @@ export default function ArticlesPage() {
                   className="pl-9 md:pl-10 border-blue-200 focus:border-blue-400"
                 />
               </div>
-              <Button variant="outline" className="border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent">
+              {/* <Button variant="outline" className="border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent">
                 <Filter className="w-4 h-4 mr-2" />
                 Фильтры
-              </Button>
+              </Button> */}
             </div>
 
             {/* Categories */}
@@ -317,12 +317,6 @@ export default function ArticlesPage() {
                     key={article.id}
                     className="border-blue-200 shadow-lg hover:shadow-xl transition-all hover:border-blue-300 relative"
                   >
-                    <div className="absolute top-3 md:top-4 right-3 md:right-4">
-                      <Badge className="bg-yellow-100 text-yellow-700 text-xs">
-                        <Star className="w-3 h-3 mr-1" />
-                        Рекомендуем
-                      </Badge>
-                    </div>
                     <CardHeader className="pb-3 pr-20">
                       <div className="flex items-center justify-between mb-2">
                         <Badge className={getCategoryColor(article.category)}>{article.categoryName}</Badge>

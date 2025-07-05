@@ -238,8 +238,11 @@ export default function RecognitionPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center">
-                <img src="/soile-logo.svg" alt="Soile AI" className="w-full h-full object-contain" />
+                <Mic className="w-5 h-5 md:w-6 md:h-6 text-white" />
               </div>
+              <span className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+                Soile AI
+              </span>
             </div>
 
             {/* Mobile Menu Button */}

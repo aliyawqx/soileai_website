@@ -34,7 +34,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center">
-                <img src="/soile-logo.svg" alt="Soile AI" className="w-full h-full object-contain" />
+                <img src="/soile-logo.png" alt="Soile AI" className="w-full h-full object-contain" />
               </div>
             </div>
 
@@ -374,7 +374,7 @@ export default function HomePage() {
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center space-x-2 mb-3 md:mb-4">
                 <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg flex items-center justify-center">
-                  <img src="/soile-logo.svg" alt="Soile AI" className="w-full h-full object-contain" />
+                  <img src="/soile-logo.png" alt="Soile AI" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-lg md:text-xl font-bold">Soile AI</span>
               </div>
