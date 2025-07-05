@@ -94,11 +94,11 @@ export default function RecoveryPage() {
     },
     {
       id: 3,
-      title: "Современные технологии в логопедии",
-      category: "Технологии",
-      readTime: "10 мин",
-      excerpt: "Обзор инновационных методов и технологий, используемых в речевой терапии.",
-      link: "/articles/technology-in-speech-therapy",
+      title: "Упражнения для развития речевого слуха",
+      category: "Упражнения",
+      excerpt: "Комплекс упражнений для развития фонематического слуха и улучшения восприятия речи.",
+      readTime: "11 мин",
+      link: "/articles/speech-hearing-exercises",
     },
     {
       id: 4,
