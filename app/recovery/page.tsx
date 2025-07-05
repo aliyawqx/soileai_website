@@ -82,6 +82,7 @@ export default function RecoveryPage() {
       category: "Основы",
       readTime: "8 мин",
       excerpt: "Подробный обзор основных типов речевых нарушений и современных методов их коррекции.",
+      link: "/articles/speech-disorders",
     },
     {
       id: 2,
@@ -89,6 +90,7 @@ export default function RecoveryPage() {
       category: "Поддержка",
       readTime: "6 мин",
       excerpt: "Как близкие могут помочь в процессе восстановления речи и создать поддерживающую среду.",
+      link: "/articles/family-support",
     },
     {
       id: 3,
@@ -96,6 +98,7 @@ export default function RecoveryPage() {
       category: "Технологии",
       readTime: "10 мин",
       excerpt: "Обзор инновационных методов и технологий, используемых в речевой терапии.",
+      link: "/articles/technology-in-speech-therapy",
     },
     {
       id: 4,
@@ -103,13 +106,15 @@ export default function RecoveryPage() {
       category: "Психология",
       readTime: "12 мин",
       excerpt: "Влияние речевых проблем на психическое состояние и методы психологической поддержки.",
+      link: "/articles/psychological-support",
     },
     {
       id: 5,
-      title: "Профилактика речевых нарушений",
-      category: "Профилактика",
-      readTime: "7 мин",
-      excerpt: "Рекомендации по предотвращению развития речевых проблем в разном возрасте.",
+      title: "Современные технологии в логопедии",
+      category: "Технологии",
+      excerpt: "Обзор инновационных методов и приложений, используемых в современной речевой терапии.",
+      readTime: "10 мин",
+      link: "/articles/technology-in-speech-therapy",
     },
     {
       id: 6,
@@ -117,6 +122,7 @@ export default function RecoveryPage() {
       category: "Здоровье",
       readTime: "5 мин",
       excerpt: "Как правильное питание может влиять на качество речи и процесс восстановления.",
+      link: "/articles/nutrition-and-speech-health",
     },
   ]
 
@@ -415,7 +421,7 @@ export default function RecoveryPage() {
                   </CardHeader>
                   <CardContent>
                     <CardDescription className="mb-3 md:mb-4 line-clamp-3 text-sm">{article.excerpt}</CardDescription>
-                    <Link href={`/articles/${article.title.toLowerCase().replace(/\s+/g, '-')}`}>
+                    <Link href={`${article.link}`}>
                     <Button
                       variant="outline"
                       className="w-full border-blue-300 text-blue-600 hover:bg-blue-50 bg-transparent"
